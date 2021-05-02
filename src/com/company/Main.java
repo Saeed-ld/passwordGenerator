@@ -30,7 +30,9 @@ public class Main {
                                 + symbolArray[(int) (6 * (Math.random()))]  //symbol
                                 + String.valueOf(alphabet[(int) (26 * (Math.random()))]).toUpperCase()      //uppercase letter
                                 + alphabet[(int) (26 * (Math.random()))];   //letter
+
                 char[] randomizer = output.toCharArray();
+
                 for (int i = 1; i <= 14 ; i++){
                     System.out.print(randomizer[(int) (14 * (Math.random()))]);
                 }
